@@ -4,6 +4,8 @@ Winboard is a freelance opportunity board for work matching MoWeb's service area
 
 It ships with two verified Reddit opportunities so the public board does not start empty. The optional collector can search approved Reddit communities every 30 seconds after Reddit OAuth credentials are added as environment variables.
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/yashtrivedi98/winboard_mountsmy)
+
 ## Run locally
 
 Install [Node.js 20 or later](https://nodejs.org/) and run:
