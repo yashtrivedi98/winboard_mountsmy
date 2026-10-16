@@ -1,0 +1,4 @@
+.env
+.winboard-data/
+node_modules/
+
