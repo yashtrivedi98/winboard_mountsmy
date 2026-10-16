@@ -1,0 +1,14 @@
+{
+  "name": "winboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A freelance opportunity board with an optional Reddit collector.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
+
