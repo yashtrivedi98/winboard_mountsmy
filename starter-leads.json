@@ -1,0 +1,30 @@
+[
+  {
+    "id": "reddit-seed-1x6ztiq",
+    "title": "Webflow developers — ongoing remote hourly work",
+    "source": "Reddit",
+    "community": "r/webflow",
+    "when": "Today",
+    "days": 0,
+    "status": "New",
+    "url": "https://www.reddit.com/r/webflow/comments/1x6ztiq/hiring_webflow_developers_ongoing_remote_work/",
+    "applyUrl": "https://app.flystarboard.com/hiring/developer",
+    "description": "Starboard says it is a Webflow Premium Partner agency looking for junior-to-intermediate developers for ongoing remote client projects. Work includes responsive Webflow builds from Figma, CMS, interactions, and occasional GSAP/custom code. Requires weekday overlap with US business hours. Pay rate is not listed in the post; confirm it in the application process.",
+    "tags": ["Webflow", "Remote", "Hourly", "Rate not listed"],
+    "value": 0
+  },
+  {
+    "id": "reddit-seed-developersindia-contract-ai",
+    "title": "Remote AI-native full-stack engineer — contract/freelance",
+    "source": "Reddit",
+    "community": "r/developersIndia · October hiring thread",
+    "when": "Today",
+    "days": 0,
+    "status": "New",
+    "url": "https://www.reddit.com/r/developersIndia/comments/1wuq68j/comment/pdxmkhs/",
+    "description": "A poster describes a remote contract/freelance-to-full-time role at an unnamed stealth startup in agentic commerce. They mention full-stack, backend, web/apps, and marketplace/payments/catalog experience; 4+ years preferred. No rate or company name is given, and the contact is via Reddit DM. Treat as unverified and ask for the company and pay details before sharing personal information.",
+    "tags": ["AI agents", "Full stack", "Remote", "Verify company and rate"],
+    "value": 0
+  }
+]
+
