@@ -1,0 +1,65 @@
+{
+  "profileName": "MoWeb-aligned freelance opportunities",
+  "refreshTargetSeconds": 30,
+  "refreshPolicy": "Respect each provider's API permissions and rate limits; skip or back off when limits require it.",
+  "intent": {
+    "includeAny": [
+      "hiring", "looking for a developer", "need a developer", "seeking a freelancer",
+      "freelance project", "contractor needed", "contract opportunity", "need an agency",
+      "request for proposal", "RFP", "build an MVP", "help us build", "consultant needed"
+    ],
+    "excludeAny": [
+      "for hire", "available for work", "hire me", "my portfolio", "looking for clients",
+      "I am a freelancer", "I am a developer seeking"
+    ]
+  },
+  "serviceAreas": [
+    {
+      "name": "Enterprise AI and automation",
+      "terms": ["generative AI", "LLM", "AI agent", "RAG", "machine learning", "MLOps", "computer vision", "AI integration", "workflow automation"]
+    },
+    {
+      "name": "ERP, enterprise apps, and transformation",
+      "terms": ["ERP implementation", "Odoo", "SAP integration", "CRM integration", "enterprise application", "legacy modernization", "digital transformation"]
+    },
+    {
+      "name": "Cloud, DevOps, and data engineering",
+      "terms": ["cloud migration", "AWS", "Azure", "DevOps", "Kubernetes", "data engineering", "ETL", "data pipeline", "analytics platform"]
+    },
+    {
+      "name": "Web, mobile, and product engineering",
+      "terms": ["web app", "mobile app", "React", "Node.js", "MVP development", "SaaS product", "API integration", "QA testing", "eCommerce", "Shopify", "Webflow", "GSAP"]
+    },
+    {
+      "name": "Product design",
+      "terms": ["UI UX", "product design", "Figma", "user experience", "web design"]
+    }
+  ],
+  "sources": {
+    "reddit": {
+      "mode": "OAuth Data API search; no scraping",
+      "candidateSubreddits": [
+        "forhire", "hiring", "freelance_forhire", "MachineLearningJobs",
+        "WebDeveloperJobs", "PythonJobs", "JavascriptJobs", "BigDataJobs", "RemotePython",
+        "webflow", "developersIndia"
+      ],
+      "searchScope": "Candidate communities only; enable after API credentials and access are configured."
+    },
+    "linkedin": {
+      "mode": "Official API only",
+      "searchScope": "Use only the post-reading endpoints and scopes explicitly approved for the connected LinkedIn app/member."
+    },
+    "discord": {
+      "mode": "Bot Gateway; only explicitly authorized guilds and channels",
+      "candidateServers": [
+        "NextJob — Hire • Freelance • Jobs",
+        "Freelance Hub — Freelance Jobs • Hire",
+        "SkillForge — Hire Developers & Freelancers"
+      ],
+      "searchScope": "No messages are collected until the bot is invited and granted access to selected channels."
+    }
+  },
+  "deduplication": "Prefer stable source post IDs; fall back to normalized source URL.",
+  "storage": "Keep collected post text and links only as permitted by each provider's terms."
+}
+
